@@ -6,6 +6,6 @@ public class Day7Coding {
         boolean benar = true;
         System.out.println("saudara : " + saudara );
         System.out.println("salah : " + salah);
-        System.out.println("benar : " + benar);;
+        System.out.println("benar : " + benar);
     }
 }
