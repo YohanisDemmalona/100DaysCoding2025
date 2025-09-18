@@ -35,7 +35,7 @@ public class Day11Coding {
         
         System.out.println(g);
 
-          System.out.print("Masukkan Nama  \t: ");
+          System.out.print("Masukkan Nama  \t\t: ");
           String Nama = Sc.nextLine();
           System.out.print("Masukkan Mata Kuliah  \t: ");
           String mata = Sc.nextLine();
