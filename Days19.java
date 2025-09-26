@@ -2,7 +2,7 @@ package day19coding.java;
 public class Day19CodingJava {
     public static void main(String[] args) {
         
-          double a = 22.;
+          double a = 22.2;
           float b = (float) a;
           long c = (long) b;
           int d = (int) c;
