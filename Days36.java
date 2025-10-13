@@ -7,7 +7,10 @@ public class day36Coding {
         int hari = sc.nextInt();
         
         if(hari<=5){
-           if(hari%2==0){
+           if(hari==5){
+                   System.out.print("Lima dan");
+           }
+                if(hari%2==0){
                System.out.println("kecil dari lima dan genap");
                if(hari==2){
                    System.out.println("dua,kecil dari lima dan genap");
@@ -15,13 +18,14 @@ public class day36Coding {
                    System.out.println("bukan dua,kecil dari lima dan genap");
                }
            }else if  (hari%2==1){
-               System.out.println("kecil dari lima dan ganjil");
+               System.out.println(" ganjil");
            }
+           
         }else if(hari>5)
             if(hari%2==0){
-               System.out.println("kecil dari lima dan genap");
+               System.out.println("Besar dari lima dan genap");
            }else if  (hari%2==1){
-               System.out.println("kecil dari lima dan ganjil");
+               System.out.println("Besar dari lima dan ganjil");
            }
     }
 }
